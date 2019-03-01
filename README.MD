@@ -23,6 +23,10 @@ Eu pesquisei por cima e vi que poderia ser feito usando Express.js.
 
 O plano de fundo seria editado na página, como eu não fiz a parte de upar a imagem não me preocupei com essa.
 
+### Gravação
+
+Não tive como fazer a gravação. Se for possível, estou disposto a tirar dúvidas por e-mail ou telefone.
+
 ## O que foi feito
 
 Criei o template da página baseado no
