@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Even3 - Moqups</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-section">
+        <h2>1 - Criar modelo</h2>
+        <button type="button" class="btn btn-secondary">
+          Anexar Imagem de Fundo
+        </button>
+        <a href="https://blog.even3.com.br/crachas-para-eventos-academicos/" target="_blank"
+          >Dica: Templates</a
+        >
+        <!-- Image -->
+      </div>
+      <div class="second-section">
+        <h2>2 - Importar participantes</h2>
+        <p>
+          Copie o conteúdo da planilha excel, incluindo os cabeçalhos e cole
+          aqui.
+        </p>
+        <textarea id="mytextarea" cols="100" rows="10"></textarea>
+      </div>
+      <div class="third-section">
+      	<h2>3 - Baixar</h2>
+	<button type="button" class="btn btn-secondary" onclick="build()">
+          Baixar crachás
+        </button>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  </body>
+</html>

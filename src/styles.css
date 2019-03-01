@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+
+.first-section, .second-section, .third-section {
+  margin-top: 30px;
+}
+
+.first-section > a {
+  margin-left: 30px;
+}
+
+textarea {
+  overflow: auto,
+}
