@@ -33,16 +33,18 @@ https://even3.blob.core.windows.net/assets/mock-cracha2.png
 
 Coloquei o link com diversos templates para ajudar o organizadoro.
 
-Foi criado uma <textarea>, onde é copiado o conteúdo da planilha de participantes.
+Foi criado uma <textarea>, onde é copiado o conteúdo da planilha de participantes(Ctrl+C + Ctrl+V).
 
 A impressão dos crachás é feita em um único PDF ao clicar no <button> Baixar crachás.
 
 Como eu não enviei o plano de fundo, eu coloquei um dos exemplos de crachá na minha pasta do projeto. E usando pdfmake, eu o coloquei como
 plano de fundo dos crachás. E como também não fiz a edição do plano de fundo, eu criei meu próprio template dos textos que vão no crachá.
 
+````
 {Nome}
 {Instituição}(se houver)
 {País}
+````
 
 ## O que foi utilizado
 
